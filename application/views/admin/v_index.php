@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Produk By Mfikri.com">
-    <meta name="author" content="Hibah 2017">
+    <meta name="author" content="Copyright IMPAL 2017 | Dani Fefe Nadira Furqon Mia">
 
     <title>Citra Mart</title>
 
@@ -61,7 +61,7 @@
                 <div class="menu-item blue" style="height:150px;">
                      <a href="<?php echo base_url().'admin/penjualan'?>" data-toggle="modal">
                            <i class="fa fa-shopping-bag"></i>
-                            <p style="text-align:left;font-size:14px;padding-left:5px;">Penjualan Eceran</p>
+                            <p style="text-align:left;font-size:14px;padding-left:5px;">Transaksi</p>
                       </a>
                 </div>
             </div>
@@ -83,14 +83,14 @@
                 </div> 
             </div>
             <?php }?>
-            <?php if($h=='2'){ ?> 
+            <?php if($h=='2'){ ?>
             <div class="col-md-3 portfolio-item">
                 <div class="menu-item blue" style="height:150px;">
                      <a href="#" data-toggle="modal">
                            <i class="fa fa-shopping-cart"></i>
-                            <p style="text-align:left;font-size:14px;padding-left:5px;">Penjualan Eceran</p>
+                            <p style="text-align:left;font-size:14px;padding-left:5px;">Penjualan</p>
                       </a>
-                </div> 
+                </div>
             </div>
 
             <div class="col-md-3 portfolio-item">

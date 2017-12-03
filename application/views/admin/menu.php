@@ -18,7 +18,7 @@
                     <?php if($h=='1'){ ?> 
                      <!--dropdown-->
                     <li>
-                        <a href="<?php echo base_url().'admin/penjualan'?>"<span class="fa fa-refresh"></span> Transaksi</a>
+                        <a href="<?php echo base_url().'admin/penjualan'?>"><span class="fa fa-shopping-bag"></span> Transaksi</a>
                     </li>
                     <!--ending dropdown-->
                     <li>

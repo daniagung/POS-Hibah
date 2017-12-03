@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Produk By Mfikri.com">
-    <meta name="author" content="Hibah 2017">
+    <meta name="author" content="Copyright IMPAL 2017 | Dani Fefe Nadira Furqon Mia">
 
     <title>Retur Penjualan</title>
 
@@ -177,7 +177,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p style="text-align:center;">Copyright &copy; <?php echo '2017';?> by Hibah 2017</p>
+                    <p style="text-align:center;">Copyright &copy; <?php echo '2017';?> by Copyright IMPAL 2017 | Dani Fefe Nadira Furqon Mia</p>
                 </div>
             </div>
             <!-- /.row -->

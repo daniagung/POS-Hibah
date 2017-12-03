@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8080/citra/';
+$config['base_url'] = 'http://10.20.192.27:8080/citra/';
 
 /*
 |--------------------------------------------------------------------------
