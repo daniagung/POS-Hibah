@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url().'welcome'?>">Point of Sale</a>
+                <a class="navbar-brand" href="<?php echo base_url().'welcome'?>">Citra Mart</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -17,12 +17,8 @@
                     <?php $u=$this->session->userdata('user'); ?>
                     <?php if($h=='1'){ ?> 
                      <!--dropdown-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Transaksi"><span class="fa fa-shopping-cart" aria-hidden="true"></span> Transaksi</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="<?php echo base_url().'admin/penjualan'?>"><span class="fa fa-shopping-bag" aria-hidden="true"></span> Penjualan (Eceran)</a></li> 
-                            <li><a href="<?php echo base_url().'admin/penjualan_grosir'?>"><span class="fa fa-cubes" aria-hidden="true"></span> Penjualan (Grosir)</a></li> 
-                        </ul>
+                    <li>
+                        <a href="<?php echo base_url().'admin/penjualan'?>"<span class="fa fa-refresh"></span> Transaksi</a>
                     </li>
                     <!--ending dropdown-->
                     <li>
@@ -37,12 +33,8 @@
                     <?php }?>
                     <?php if($h=='2'){ ?> 
                       <!--dropdown-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Transaksi"><span class="fa fa-shopping-cart" aria-hidden="true"></span> Transaksi</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="<?php echo base_url().'admin/penjualan'?>"><span class="fa fa-shopping-bag" aria-hidden="true"></span> Penjualan (Eceran)</a></li> 
-                            <li><a href="<?php echo base_url().'admin/penjualan_grosir'?>"><span class="fa fa-cubes" aria-hidden="true"></span> Penjualan (Grosir)</a></li> 
-                        </ul>
+                    <li>
+                        <a href="<?php echo base_url().'admin/penjualan'?>"><span class="fa fa-shopping-bag" aria-hidden="true"></span> Penjualan</a></li>
                     </li>
                     <!--ending dropdown-->
                     <li>

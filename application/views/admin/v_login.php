@@ -13,6 +13,7 @@
    
   </head>
   <body class="login-bg">
+
   
 
 	<div class="page-content container">
@@ -21,7 +22,7 @@
 				<div class="login-wrapper">
 			        <div class="box">
 			            <div class="content-wrap">
-			                <img width="310px" src="<?php echo base_url().'assets/img/logo.png'?>"/>
+			                <img  src="<?php echo base_url().'assets/images/citra_mart_logo.png'?>"/>
 			                <p><?php echo $this->session->flashdata('msg');?></p>
 	                        <hr/>
 	                        <form action="<?php echo base_url().'administrator/cekuser'?>" method="post">
@@ -33,11 +34,6 @@
 	                        </form>
 			                                
 			            </div>
-			        </div>
-
-			        <div class="already">
-			            <p>Username: admin<br/> Password: admin</p>
-			            
 			        </div>
 			    </div>
 			</div>
